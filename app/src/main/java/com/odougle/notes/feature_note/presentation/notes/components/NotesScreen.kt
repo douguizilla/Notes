@@ -72,7 +72,7 @@ fun NotesScreen(
                 }
             }
             AnimatedVisibility(
-                visible = state.isOrderSectioVisible,
+                visible = state.isOrderSectionVisible,
                 enter = fadeIn() + slideInVertically(),
                 exit = fadeOut() + slideOutVertically()
             ) {
